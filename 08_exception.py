@@ -3,8 +3,8 @@ try:
     num=int(input("Enter a number: "))
     result=100/num
     
-except Exception as e:
-    print(e)
+except ValueError:
+    print("Please enter a valid number")
     
 except ZeroDivisionError:
     print("Number can not be zero")
