@@ -6,3 +6,4 @@ def change():
     
 change()
 print(x)
+#Without global output will be 10
